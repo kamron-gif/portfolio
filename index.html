@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Audiowide&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="flex">
+          <h1>Portfolio</h1>
+          <nav>
+            <ul class="flex">
+              <li><a href="#">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#service">Services</a></li>
+              <li><a href="#project">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main id="about">
+      <div class="container">
+        <div class="flex">
+          <div class="w-50">
+            <h2>Hello It's Me</h2>
+            <h1>Kamer Frontend</h1>
+            <h3>And I'm a <span>Frontend Developer</span></h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
+              nulla libero labore
+            </p>
+            <p>exercitationem, iste iusto unde eos.</p>
+            <a href="https://www.instagram.com/kamer_frontend/"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <a href="https://github.com/kamron-gif"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a href="https://t.me/kamer_coder"
+              ><i class="fa-brands fa-telegram"></i
+            ></a>
+            <br />
+            <button class="main-btn">Download CV</button>
+          </div>
+          <div class="w-50">
+            <img
+              width="504px"
+              height="611px"
+              src="img/photo_2024-11-15_19-53-32.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </main>
+    <section id="service">
+      <div class="container">
+        <h1 style="font-size: 45px">Our <span>Services</span></h1>
+        <div class="flex">
+          <div class="card">
+            <img src="img/Icon.png" alt="" />
+            <h1>Web Development</h1>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta
+              autem rerum repudiandae nulla commodi quo animi! Ut autem labore
+              iure.
+            </p>
+            <button class="btn">Read More</button>
+          </div>
+          <div class="card">
+            <img src="img/Vector.png" alt="" />
+            <h1>Graphic Design</h1>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta
+              autem rerum repudiandae nulla commodi quo animi! Ut autem labore
+              iure.
+            </p>
+            <button class="btn">Read More</button>
+          </div>
+          <div class="card">
+            <img src="img/Vector (1).png" alt="" />
+            <h1>Digital Marketing</h1>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta
+              autem rerum repudiandae nulla commodi quo animi! Ut autem labore
+              iure.
+            </p>
+            <button class="btn">Read More</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="project" class="s2">
+      <div class="container">
+        <h1 style="font-size: 45px">Latest <span>Project</span></h1>
+        <div class="flex">
+          <a href="https://restoraunt-site-by-kamer-coder.netlify.app/"
+            ><img src="projects/i.webp" alt=""
+          /></a>
+          <a href="https://kamron-gif.github.io/carselleruz/"
+            ><img src="projects/unnamed.png" alt=""
+          /></a>
+          <a href="https://nike-site-by-kamer.netlify.app/"
+            ><img src="projects/i (1).webp" alt=""
+          /></a>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="input">
+      <div class="container">
+        <h1 style="font-size: 45px">Contact <span>Me!</span></h1>
+        <form id="contactForm">
+          <div class="input-div">
+            <div class="flex">
+              <input id="full_name" type="text" placeholder="Full Name" />
+              <input id="email" type="text" placeholder="Email Address" />
+            </div>
+            <div class="flex">
+              <input id="mobile" type="text" placeholder="Mobile Number" />
+              <input id="subject" type="text" placeholder="Email Subject" />
+            </div>
+            <input id="message" class="big" type="text" placeholder="Message" />
+            <button class="input-btn" type="submit">Yuborish</button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="flex">
+          <p>Copyright © 2024 by KAMER CODER | All Rights Reserved.</p>
+          <a href=""><i class="fa-solid fa-up-long"></i></a>
+        </div>
+      </div>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
